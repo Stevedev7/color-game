@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  app:
+    container_name: color-game
+    restart: always
+    build: .
+    ports:
+      - '3000:3000'
+    links:
+      - db
+    environment:
+      - HOST=mongodb://db:27017/color-game
+      - PORT=3000
+    depends_on:
+      - db
+  db:
+    container_name: mongo:latest
+    image: mongo
+    ports:
+      - '27017:27017'

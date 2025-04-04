@@ -1,8 +1,8 @@
 # Color Guessing Game
 
-A web based color guessing game designed to help practice RGB colors. Based of and expanded from a small project on [Colt Steele's Bootcamp on Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/).
+A web based color guessing game designed to help practice RGB colors. Based of and expanded from a small project on [Colt Steele's Bootcamp on Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/). This app is a fork of [Javier Belmonte' color-game repo](https://github.com/javierb07/color-game/)
 
-## Additions from the base code
+## Additions from the base code (by javierb07)
 
 - Hardest mode
 - Scores
@@ -11,8 +11,9 @@ A web based color guessing game designed to help practice RGB colors. Based of a
 - High Score table
 - Sound
 
-## Ideas to add:
+## Ideas to add
 
-- Animations
-- UI improvements
-- Mobile friendly version
+- [ ] Animations
+- [ ] UI improvements
+- [ ] Mobile friendly version
+- [x] Dockerization
